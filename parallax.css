@@ -29,9 +29,7 @@ html,body {
 
 article {
   font-size:20px;
-  -webkit-transform: translateZ( -200px ) scale(1.5);
   -webkit-transform-style: preserve-3d;
-  transform: translateZ( 200px ) scale(0.5);
   transform-style: preserve-3d;
 }
 
