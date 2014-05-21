@@ -21,13 +21,17 @@ html,body {
   top:0;
   left:0;
   width:100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translateZ( -200px ) scale(1.5);
   transform-style: preserve-3d;
   transform: translateZ( -200px ) scale(1.5);
-  -webkit-transform: translateZ( -200px ) scale(1.5);
 }
 
 article {
   font-size:20px;
+  -webkit-transform: translateZ( -200px ) scale(1.5);
+  -webkit-transform-style: preserve-3d;
+  transform: translateZ( 200px ) scale(0.5);
   transform-style: preserve-3d;
 }
 
